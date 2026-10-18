@@ -1,0 +1,29 @@
+# Environment and secrets
+.env
+.streamlit/secrets.toml
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Testing and evaluation
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local FAISS index and generated runtime caches
+data/index/
+*.bin
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
